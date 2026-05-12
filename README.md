@@ -26,15 +26,15 @@ Berikut adalah penjelasan mengenai file-file yang ada pada folder ini:
 ---
 
 ## Prasyarat
-Untuk menjalankan script ini, pastikan Anda telah menginstal beberapa pustaka (*library*) Python berikut:
+Untuk menjalankan script ini, pastikan telah menginstal beberapa pustaka (*library*) Python berikut:
 `pip install numpy matplotlib`
 
 ## Cara Menjalankan
 - Untuk Perceptron (OR)
-  Jalankan perintah berikut di terminal:
+  jalankan perintah berikut di terminal:
   `python Perceptron_or.py` (Grafik akan muncul. Tutup jendela grafik agar pelatihan dapat lanjut ke epoch berikutnya)
 - Untuk Backpropagation (XOR)
-  Jalankan perintah berikut di terminal:
+  jalankan perintah berikut di terminal:
   `python Backpropagation_xor.py` (Setelah proses pelatihan selesai, periksa tahapan perhitungannya di hasilBackpropagation.txt dan grafik penurunan error akan ditampilkan)
 
 Kedua algoritma akan berhenti melakukan iterasi secara otomatis apabila target error (atau SSE = 0 untuk kasus Perceptron) telah tercapai, atau jika epoch telah mencapai batas maksimum yang ditentukan pada script runner.
