@@ -1,0 +1,28 @@
+Masalah OR dengan Perceptron
+---
+
+Epoch 1/10
+-----
+Input: [1 1], Target: 1, Predict: 1, Error: 0, Bobot: [0. 0.], Bias: 0.0
+Input: [ 1 -1], Target: 1, Predict: 1, Error: 0, Bobot: [0. 0.], Bias: 0.0
+Input: [-1  1], Target: 1, Predict: 1, Error: 0, Bobot: [0. 0.], Bias: 0.0
+Input: [-1 -1], Target: -1, Predict: 1, Error: -2, Bobot: [0.2 0.2], Bias: -0.2
+Sum Square Error (SSE): 4
+
+Epoch 2/10
+-----
+Input: [1 1], Target: 1, Predict: 1, Error: 0, Bobot: [0.2 0.2], Bias: -0.2
+Input: [ 1 -1], Target: 1, Predict: -1, Error: 2, Bobot: [0.4 0. ], Bias: 0.0
+Input: [-1  1], Target: 1, Predict: -1, Error: 2, Bobot: [0.2 0.2], Bias: 0.2
+Input: [-1 -1], Target: -1, Predict: -1, Error: 0, Bobot: [0.2 0.2], Bias: 0.2
+Sum Square Error (SSE): 8
+
+Epoch 3/10
+-----
+Input: [1 1], Target: 1, Predict: 1, Error: 0, Bobot: [0.2 0.2], Bias: 0.2
+Input: [ 1 -1], Target: 1, Predict: 1, Error: 0, Bobot: [0.2 0.2], Bias: 0.2
+Input: [-1  1], Target: 1, Predict: 1, Error: 0, Bobot: [0.2 0.2], Bias: 0.2
+Input: [-1 -1], Target: -1, Predict: -1, Error: 0, Bobot: [0.2 0.2], Bias: 0.2
+Sum Square Error (SSE): 0
+
+Pelatihan berhenti pada epoch ke-3 karena SSE mencapai target.
